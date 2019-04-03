@@ -1,0 +1,7 @@
+target 'DFEmojiManager' do
+
+
+pod 'YYKit'
+pod 'Masonry'
+
+end

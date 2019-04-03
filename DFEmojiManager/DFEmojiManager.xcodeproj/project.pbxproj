@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49573234A3D21233F3CE909E /* libPods-DFEmojiManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A957D08AAB67429B7F411E4 /* libPods-DFEmojiManager.a */; };
+		65C476BC2254A9C4004A6BD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C476BB2254A9C4004A6BD2 /* AppDelegate.m */; };
+		65C476BF2254A9C4004A6BD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C476BE2254A9C4004A6BD2 /* ViewController.m */; };
+		65C476C22254A9C4004A6BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C476C02254A9C4004A6BD2 /* Main.storyboard */; };
+		65C476C42254A9C5004A6BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C476C32254A9C5004A6BD2 /* Assets.xcassets */; };
+		65C476C72254A9C5004A6BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C476C52254A9C5004A6BD2 /* LaunchScreen.storyboard */; };
+		65C476CA2254A9C5004A6BD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C476C92254A9C5004A6BD2 /* main.m */; };
+		65C476D42254A9C5004A6BD2 /* DFEmojiManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C476D32254A9C5004A6BD2 /* DFEmojiManagerTests.m */; };
+		65C476DF2254A9C5004A6BD2 /* DFEmojiManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C476DE2254A9C5004A6BD2 /* DFEmojiManagerUITests.m */; };
+		65C4770A2254AA13004A6BD2 /* DFChatInputMenuBarEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C477082254AA13004A6BD2 /* DFChatInputMenuBarEmojiView.m */; };
+		65C4770D2254ABD1004A6BD2 /* DFBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C4770C2254ABD1004A6BD2 /* DFBaseView.m */; };
+		65C477202254ADAA004A6BD2 /* EmojisInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65C4770F2254ADAA004A6BD2 /* EmojisInfo.plist */; };
+		65C477212254ADAA004A6BD2 /* EmojiIco.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C477112254ADAA004A6BD2 /* EmojiIco.xcassets */; };
+		65C477222254ADAA004A6BD2 /* DFEmojiContentNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C477132254ADAA004A6BD2 /* DFEmojiContentNode.m */; };
+		65C477232254ADAA004A6BD2 /* DFEmojiFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C477142254ADAA004A6BD2 /* DFEmojiFlowLayout.m */; };
+		65C477242254ADAA004A6BD2 /* DFEmojiPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C477152254ADAA004A6BD2 /* DFEmojiPreviewView.m */; };
+		65C477252254ADAA004A6BD2 /* DFEmojiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C477182254ADAA004A6BD2 /* DFEmojiManager.m */; };
+		65C477262254ADAA004A6BD2 /* Emojis.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65C477192254ADAA004A6BD2 /* Emojis.bundle */; };
+		65C477272254ADAA004A6BD2 /* DFEmojiClassesBarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C4771A2254ADAA004A6BD2 /* DFEmojiClassesBarNode.m */; };
+		65C477282254ADAA004A6BD2 /* DFEmojiPageControlNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C4771D2254ADAA004A6BD2 /* DFEmojiPageControlNode.m */; };
+		65C477292254ADAA004A6BD2 /* DFEmojiPreviewImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C4771E2254ADAA004A6BD2 /* DFEmojiPreviewImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65C476D02254A9C5004A6BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C476AF2254A9C4004A6BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C476B62254A9C4004A6BD2;
+			remoteInfo = DFEmojiManager;
+		};
+		65C476DB2254A9C5004A6BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C476AF2254A9C4004A6BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C476B62254A9C4004A6BD2;
+			remoteInfo = DFEmojiManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A957D08AAB67429B7F411E4 /* libPods-DFEmojiManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DFEmojiManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C476B72254A9C4004A6BD2 /* DFEmojiManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFEmojiManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C476BA2254A9C4004A6BD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65C476BB2254A9C4004A6BD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65C476BD2254A9C4004A6BD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65C476BE2254A9C4004A6BD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65C476C12254A9C4004A6BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65C476C32254A9C5004A6BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65C476C62254A9C5004A6BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65C476C82254A9C5004A6BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C476C92254A9C5004A6BD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65C476CF2254A9C5004A6BD2 /* DFEmojiManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFEmojiManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C476D32254A9C5004A6BD2 /* DFEmojiManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFEmojiManagerTests.m; sourceTree = "<group>"; };
+		65C476D52254A9C5004A6BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C476DA2254A9C5004A6BD2 /* DFEmojiManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFEmojiManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C476DE2254A9C5004A6BD2 /* DFEmojiManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFEmojiManagerUITests.m; sourceTree = "<group>"; };
+		65C476E02254A9C5004A6BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C477082254AA13004A6BD2 /* DFChatInputMenuBarEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFChatInputMenuBarEmojiView.m; sourceTree = "<group>"; };
+		65C477092254AA13004A6BD2 /* DFChatInputMenuBarEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFChatInputMenuBarEmojiView.h; sourceTree = "<group>"; };
+		65C4770B2254ABD1004A6BD2 /* DFBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFBaseView.h; sourceTree = "<group>"; };
+		65C4770C2254ABD1004A6BD2 /* DFBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBaseView.m; sourceTree = "<group>"; };
+		65C4770F2254ADAA004A6BD2 /* EmojisInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmojisInfo.plist; sourceTree = "<group>"; };
+		65C477102254ADAA004A6BD2 /* DFEmojiClassesBarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFEmojiClassesBarNode.h; sourceTree = "<group>"; };
+		65C477112254ADAA004A6BD2 /* EmojiIco.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = EmojiIco.xcassets; sourceTree = "<group>"; };
+		65C477122254ADAA004A6BD2 /* DFEmojiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFEmojiManager.h; sourceTree = "<group>"; };
+		65C477132254ADAA004A6BD2 /* DFEmojiContentNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFEmojiContentNode.m; sourceTree = "<group>"; };
+		65C477142254ADAA004A6BD2 /* DFEmojiFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFEmojiFlowLayout.m; sourceTree = "<group>"; };
+		65C477152254ADAA004A6BD2 /* DFEmojiPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFEmojiPreviewView.m; sourceTree = "<group>"; };
+		65C477162254ADAA004A6BD2 /* DFEmojiPreviewImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFEmojiPreviewImageView.h; sourceTree = "<group>"; };
+		65C477172254ADAA004A6BD2 /* DFEmojiPageControlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFEmojiPageControlNode.h; sourceTree = "<group>"; };
+		65C477182254ADAA004A6BD2 /* DFEmojiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFEmojiManager.m; sourceTree = "<group>"; };
+		65C477192254ADAA004A6BD2 /* Emojis.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emojis.bundle; sourceTree = "<group>"; };
+		65C4771A2254ADAA004A6BD2 /* DFEmojiClassesBarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFEmojiClassesBarNode.m; sourceTree = "<group>"; };
+		65C4771B2254ADAA004A6BD2 /* DFEmojiFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFEmojiFlowLayout.h; sourceTree = "<group>"; };
+		65C4771C2254ADAA004A6BD2 /* DFEmojiContentNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFEmojiContentNode.h; sourceTree = "<group>"; };
+		65C4771D2254ADAA004A6BD2 /* DFEmojiPageControlNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFEmojiPageControlNode.m; sourceTree = "<group>"; };
+		65C4771E2254ADAA004A6BD2 /* DFEmojiPreviewImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFEmojiPreviewImageView.m; sourceTree = "<group>"; };
+		65C4771F2254ADAA004A6BD2 /* DFEmojiPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFEmojiPreviewView.h; sourceTree = "<group>"; };
+		83A277FFB1E3328C356FFE86 /* Pods-DFEmojiManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFEmojiManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFEmojiManager/Pods-DFEmojiManager.debug.xcconfig"; sourceTree = "<group>"; };
+		A3A55200CC11BC8A5B689554 /* Pods-DFEmojiManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFEmojiManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFEmojiManager/Pods-DFEmojiManager.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65C476B42254A9C4004A6BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49573234A3D21233F3CE909E /* libPods-DFEmojiManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C476CC2254A9C5004A6BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C476D72254A9C5004A6BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65C476AE2254A9C4004A6BD2 = {
+			isa = PBXGroup;
+			children = (
+				65C476B92254A9C4004A6BD2 /* DFEmojiManager */,
+				65C476D22254A9C5004A6BD2 /* DFEmojiManagerTests */,
+				65C476DD2254A9C5004A6BD2 /* DFEmojiManagerUITests */,
+				65C476B82254A9C4004A6BD2 /* Products */,
+				9C6C66427622925AE5DBCCE8 /* Pods */,
+				76996D28BBF83F7F6031D775 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65C476B82254A9C4004A6BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65C476B72254A9C4004A6BD2 /* DFEmojiManager.app */,
+				65C476CF2254A9C5004A6BD2 /* DFEmojiManagerTests.xctest */,
+				65C476DA2254A9C5004A6BD2 /* DFEmojiManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65C476B92254A9C4004A6BD2 /* DFEmojiManager */ = {
+			isa = PBXGroup;
+			children = (
+				65C4770E2254ADAA004A6BD2 /* Emoji */,
+				65C476BA2254A9C4004A6BD2 /* AppDelegate.h */,
+				65C476BB2254A9C4004A6BD2 /* AppDelegate.m */,
+				65C476BD2254A9C4004A6BD2 /* ViewController.h */,
+				65C476BE2254A9C4004A6BD2 /* ViewController.m */,
+				65C477092254AA13004A6BD2 /* DFChatInputMenuBarEmojiView.h */,
+				65C477082254AA13004A6BD2 /* DFChatInputMenuBarEmojiView.m */,
+				65C4770B2254ABD1004A6BD2 /* DFBaseView.h */,
+				65C4770C2254ABD1004A6BD2 /* DFBaseView.m */,
+				65C476C02254A9C4004A6BD2 /* Main.storyboard */,
+				65C476C32254A9C5004A6BD2 /* Assets.xcassets */,
+				65C476C52254A9C5004A6BD2 /* LaunchScreen.storyboard */,
+				65C476C82254A9C5004A6BD2 /* Info.plist */,
+				65C476C92254A9C5004A6BD2 /* main.m */,
+			);
+			path = DFEmojiManager;
+			sourceTree = "<group>";
+		};
+		65C476D22254A9C5004A6BD2 /* DFEmojiManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				65C476D32254A9C5004A6BD2 /* DFEmojiManagerTests.m */,
+				65C476D52254A9C5004A6BD2 /* Info.plist */,
+			);
+			path = DFEmojiManagerTests;
+			sourceTree = "<group>";
+		};
+		65C476DD2254A9C5004A6BD2 /* DFEmojiManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65C476DE2254A9C5004A6BD2 /* DFEmojiManagerUITests.m */,
+				65C476E02254A9C5004A6BD2 /* Info.plist */,
+			);
+			path = DFEmojiManagerUITests;
+			sourceTree = "<group>";
+		};
+		65C4770E2254ADAA004A6BD2 /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				65C4770F2254ADAA004A6BD2 /* EmojisInfo.plist */,
+				65C477112254ADAA004A6BD2 /* EmojiIco.xcassets */,
+				65C477122254ADAA004A6BD2 /* DFEmojiManager.h */,
+				65C477182254ADAA004A6BD2 /* DFEmojiManager.m */,
+				65C477102254ADAA004A6BD2 /* DFEmojiClassesBarNode.h */,
+				65C4771A2254ADAA004A6BD2 /* DFEmojiClassesBarNode.m */,
+				65C4771C2254ADAA004A6BD2 /* DFEmojiContentNode.h */,
+				65C477132254ADAA004A6BD2 /* DFEmojiContentNode.m */,
+				65C477172254ADAA004A6BD2 /* DFEmojiPageControlNode.h */,
+				65C4771D2254ADAA004A6BD2 /* DFEmojiPageControlNode.m */,
+				65C4771B2254ADAA004A6BD2 /* DFEmojiFlowLayout.h */,
+				65C477142254ADAA004A6BD2 /* DFEmojiFlowLayout.m */,
+				65C4771F2254ADAA004A6BD2 /* DFEmojiPreviewView.h */,
+				65C477152254ADAA004A6BD2 /* DFEmojiPreviewView.m */,
+				65C477162254ADAA004A6BD2 /* DFEmojiPreviewImageView.h */,
+				65C4771E2254ADAA004A6BD2 /* DFEmojiPreviewImageView.m */,
+				65C477192254ADAA004A6BD2 /* Emojis.bundle */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
+		76996D28BBF83F7F6031D775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A957D08AAB67429B7F411E4 /* libPods-DFEmojiManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C6C66427622925AE5DBCCE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83A277FFB1E3328C356FFE86 /* Pods-DFEmojiManager.debug.xcconfig */,
+				A3A55200CC11BC8A5B689554 /* Pods-DFEmojiManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65C476B62254A9C4004A6BD2 /* DFEmojiManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C476E32254A9C5004A6BD2 /* Build configuration list for PBXNativeTarget "DFEmojiManager" */;
+			buildPhases = (
+				E58EAC40A1819192B43A575D /* [CP] Check Pods Manifest.lock */,
+				65C476B32254A9C4004A6BD2 /* Sources */,
+				65C476B42254A9C4004A6BD2 /* Frameworks */,
+				65C476B52254A9C4004A6BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFEmojiManager;
+			productName = DFEmojiManager;
+			productReference = 65C476B72254A9C4004A6BD2 /* DFEmojiManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65C476CE2254A9C5004A6BD2 /* DFEmojiManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C476E62254A9C5004A6BD2 /* Build configuration list for PBXNativeTarget "DFEmojiManagerTests" */;
+			buildPhases = (
+				65C476CB2254A9C5004A6BD2 /* Sources */,
+				65C476CC2254A9C5004A6BD2 /* Frameworks */,
+				65C476CD2254A9C5004A6BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C476D12254A9C5004A6BD2 /* PBXTargetDependency */,
+			);
+			name = DFEmojiManagerTests;
+			productName = DFEmojiManagerTests;
+			productReference = 65C476CF2254A9C5004A6BD2 /* DFEmojiManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65C476D92254A9C5004A6BD2 /* DFEmojiManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C476E92254A9C5004A6BD2 /* Build configuration list for PBXNativeTarget "DFEmojiManagerUITests" */;
+			buildPhases = (
+				65C476D62254A9C5004A6BD2 /* Sources */,
+				65C476D72254A9C5004A6BD2 /* Frameworks */,
+				65C476D82254A9C5004A6BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C476DC2254A9C5004A6BD2 /* PBXTargetDependency */,
+			);
+			name = DFEmojiManagerUITests;
+			productName = DFEmojiManagerUITests;
+			productReference = 65C476DA2254A9C5004A6BD2 /* DFEmojiManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65C476AF2254A9C4004A6BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ongfei;
+				TargetAttributes = {
+					65C476B62254A9C4004A6BD2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					65C476CE2254A9C5004A6BD2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 65C476B62254A9C4004A6BD2;
+					};
+					65C476D92254A9C5004A6BD2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 65C476B62254A9C4004A6BD2;
+					};
+				};
+			};
+			buildConfigurationList = 65C476B22254A9C4004A6BD2 /* Build configuration list for PBXProject "DFEmojiManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65C476AE2254A9C4004A6BD2;
+			productRefGroup = 65C476B82254A9C4004A6BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65C476B62254A9C4004A6BD2 /* DFEmojiManager */,
+				65C476CE2254A9C5004A6BD2 /* DFEmojiManagerTests */,
+				65C476D92254A9C5004A6BD2 /* DFEmojiManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65C476B52254A9C4004A6BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C476C72254A9C5004A6BD2 /* LaunchScreen.storyboard in Resources */,
+				65C477212254ADAA004A6BD2 /* EmojiIco.xcassets in Resources */,
+				65C477262254ADAA004A6BD2 /* Emojis.bundle in Resources */,
+				65C477202254ADAA004A6BD2 /* EmojisInfo.plist in Resources */,
+				65C476C42254A9C5004A6BD2 /* Assets.xcassets in Resources */,
+				65C476C22254A9C4004A6BD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C476CD2254A9C5004A6BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C476D82254A9C5004A6BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E58EAC40A1819192B43A575D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DFEmojiManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65C476B32254A9C4004A6BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C476BF2254A9C4004A6BD2 /* ViewController.m in Sources */,
+				65C476CA2254A9C5004A6BD2 /* main.m in Sources */,
+				65C477252254ADAA004A6BD2 /* DFEmojiManager.m in Sources */,
+				65C477272254ADAA004A6BD2 /* DFEmojiClassesBarNode.m in Sources */,
+				65C477282254ADAA004A6BD2 /* DFEmojiPageControlNode.m in Sources */,
+				65C477242254ADAA004A6BD2 /* DFEmojiPreviewView.m in Sources */,
+				65C477292254ADAA004A6BD2 /* DFEmojiPreviewImageView.m in Sources */,
+				65C477232254ADAA004A6BD2 /* DFEmojiFlowLayout.m in Sources */,
+				65C476BC2254A9C4004A6BD2 /* AppDelegate.m in Sources */,
+				65C4770D2254ABD1004A6BD2 /* DFBaseView.m in Sources */,
+				65C477222254ADAA004A6BD2 /* DFEmojiContentNode.m in Sources */,
+				65C4770A2254AA13004A6BD2 /* DFChatInputMenuBarEmojiView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C476CB2254A9C5004A6BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C476D42254A9C5004A6BD2 /* DFEmojiManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C476D62254A9C5004A6BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C476DF2254A9C5004A6BD2 /* DFEmojiManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65C476D12254A9C5004A6BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65C476B62254A9C4004A6BD2 /* DFEmojiManager */;
+			targetProxy = 65C476D02254A9C5004A6BD2 /* PBXContainerItemProxy */;
+		};
+		65C476DC2254A9C5004A6BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65C476B62254A9C4004A6BD2 /* DFEmojiManager */;
+			targetProxy = 65C476DB2254A9C5004A6BD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65C476C02254A9C4004A6BD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C476C12254A9C4004A6BD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65C476C52254A9C5004A6BD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C476C62254A9C5004A6BD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65C476E12254A9C5004A6BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65C476E22254A9C5004A6BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65C476E42254A9C5004A6BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A277FFB1E3328C356FFE86 /* Pods-DFEmojiManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ23789V72;
+				INFOPLIST_FILE = DFEmojiManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DF.DFEmojiManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65C476E52254A9C5004A6BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A55200CC11BC8A5B689554 /* Pods-DFEmojiManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ23789V72;
+				INFOPLIST_FILE = DFEmojiManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DF.DFEmojiManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65C476E72254A9C5004A6BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ23789V72;
+				INFOPLIST_FILE = DFEmojiManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DF.DFEmojiManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFEmojiManager.app/DFEmojiManager";
+			};
+			name = Debug;
+		};
+		65C476E82254A9C5004A6BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ23789V72;
+				INFOPLIST_FILE = DFEmojiManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DF.DFEmojiManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFEmojiManager.app/DFEmojiManager";
+			};
+			name = Release;
+		};
+		65C476EA2254A9C5004A6BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ23789V72;
+				INFOPLIST_FILE = DFEmojiManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DF.DFEmojiManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DFEmojiManager;
+			};
+			name = Debug;
+		};
+		65C476EB2254A9C5004A6BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ23789V72;
+				INFOPLIST_FILE = DFEmojiManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DF.DFEmojiManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DFEmojiManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65C476B22254A9C4004A6BD2 /* Build configuration list for PBXProject "DFEmojiManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C476E12254A9C5004A6BD2 /* Debug */,
+				65C476E22254A9C5004A6BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C476E32254A9C5004A6BD2 /* Build configuration list for PBXNativeTarget "DFEmojiManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C476E42254A9C5004A6BD2 /* Debug */,
+				65C476E52254A9C5004A6BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C476E62254A9C5004A6BD2 /* Build configuration list for PBXNativeTarget "DFEmojiManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C476E72254A9C5004A6BD2 /* Debug */,
+				65C476E82254A9C5004A6BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C476E92254A9C5004A6BD2 /* Build configuration list for PBXNativeTarget "DFEmojiManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C476EA2254A9C5004A6BD2 /* Debug */,
+				65C476EB2254A9C5004A6BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65C476AF2254A9C4004A6BD2 /* Project object */;
+}
