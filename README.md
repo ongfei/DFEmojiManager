@@ -1,0 +1,2 @@
+# DFEmojiManager
+emoji-view
