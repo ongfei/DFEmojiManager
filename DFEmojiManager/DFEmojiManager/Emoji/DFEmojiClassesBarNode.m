@@ -119,7 +119,12 @@
     if (self.scrollSubNode.count >0) {
         [self scrollSubNodeClick:self.scrollSubNode.firstObject:NO];
     }
-    self.scrollNode.contentSize = CGSizeMake(self.scrollSubNode.count * 42 , 40);
+//    self.scrollNode.contentSize = CGSizeMake(self.scrollSubNode.count * 42 , 40);
+    [self.scrollNode mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.addNode.mas_right);
+        make.right.equalTo(tempBtn.mas_right);
+        make.height.mas_equalTo(40);
+    }];
 
 }
 
@@ -130,10 +135,10 @@
         UIButton *node = [self.scrollSubNode objectAtIndex:selectIndex];
         [self scrollSubNodeClick:node :YES];
         //scrollview 选中的在可见frame内
-        if ((node.frame.origin.x + node.frame.size.width - self.scrollNode.contentOffset.x) > (self.scrollNode.frame.origin.x +self.scrollNode.frame.size.width)) {
+        if ((CGRectGetMaxX(node.frame) - self.scrollNode.contentOffset.x) > CGRectGetMaxX(self.scrollNode.frame)) {
             [self.scrollNode setContentOffset:CGPointMake(node.frame.origin.x - (KScreenWidth - 92) + node.frame.size.width, 0) animated:YES];
         }
-        if ((node.frame.origin.x + node.frame.size.width) < self.scrollNode.contentOffset.x) {
+        if (CGRectGetMaxX(node.frame) < self.scrollNode.contentOffset.x) {
             [self.scrollNode setContentOffset:CGPointMake(node.frame.origin.x, 0) animated:YES];
         }
     }
