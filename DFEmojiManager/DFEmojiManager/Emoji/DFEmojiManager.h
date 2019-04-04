@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)shareInstance;
 
-/// 所有的表情包<PPSticker *>
+
 @property (nonatomic, strong, readonly) NSArray<DFEmojiPlist *> *allEmojis;
 
 - (NSString *)emojiPathWithEmojiDescription:(NSString *)emojiDescription;

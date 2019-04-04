@@ -94,8 +94,6 @@
         
         UIButton *subBtnNode = [[UIButton alloc] init];
         [subBtnNode setImage:[UIImage imageWithContentsOfFile:imgPath] forState:(UIControlStateNormal)];
-//        subBtnNode.imageNode.forcedSize = CGSizeMake(27, 27);
-//        [subBtnNode.imageNode setContentMode:(UIViewContentModeCenter)];
         [subBtnNode setBackgroundColor:[UIColor colorWithHexString:@"F5F5F5"]];
         [subBtnNode addTarget:self action:@selector(scrollSubNodeClick::) forControlEvents:(UIControlEventTouchUpInside)];
         //添加按钮右边线

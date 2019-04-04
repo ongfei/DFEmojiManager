@@ -400,11 +400,6 @@
             self.emojiPreview.descriptionLabel.text = @"";
             [self.emojiPreview removeFromSuperview];
         }
-    }else if (sender.state == UIGestureRecognizerStateCancelled || sender.state == UIGestureRecognizerStateEnded) {
-        self.emojiPreview.frame = CGRectZero;
-        self.emojiPreview.emojiImageView.image = nil;
-        self.emojiPreview.descriptionLabel.text = @"";
-        [self.emojiPreview removeFromSuperview];
     }else if (sender.state == UIGestureRecognizerStateChanged) {
         if (cell.imageView.image) {
             if (!self.emojiPreview.superview) {
@@ -459,11 +454,6 @@
             self.emojiImagePreview.descriptionLabel.text = @"";
             [self.emojiImagePreview removeFromSuperview];
         }
-    }else if (sender.state == UIGestureRecognizerStateCancelled || sender.state == UIGestureRecognizerStateEnded) {
-        self.emojiImagePreview.frame = CGRectZero;
-        self.emojiImagePreview.emojiImageView.image = nil;
-        self.emojiImagePreview.descriptionLabel.text = @"";
-        [self.emojiImagePreview removeFromSuperview];
     }else if (sender.state == UIGestureRecognizerStateChanged) {
         if (cell.imageView.image) {
             if (!self.emojiImagePreview.superview) {
