@@ -138,7 +138,7 @@
         if ((CGRectGetMaxX(node.frame) + CGRectGetWidth(node.frame) - self.scrollNode.contentOffset.x) > CGRectGetMaxX(self.scrollNode.frame)) {
             [self.scrollNode setContentOffset:CGPointMake(node.frame.origin.x - (KScreenWidth - 92) + node.frame.size.width, 0) animated:YES];
         }
-        if (CGRectGetMaxX(node.frame) < self.scrollNode.contentOffset.x) {
+        if (CGRectGetMaxX(node.frame) - CGRectGetWidth(node.frame) < self.scrollNode.contentOffset.x) {
             [self.scrollNode setContentOffset:CGPointMake(node.frame.origin.x, 0) animated:YES];
         }
     }
