@@ -119,7 +119,7 @@
     if (self.scrollSubNode.count >0) {
         [self scrollSubNodeClick:self.scrollSubNode.firstObject:NO];
     }
-//    self.scrollNode.contentSize = CGSizeMake(self.scrollSubNode.count * 42 , 40);
+    
     [self.scrollNode mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self.addNode.mas_right);
         make.right.equalTo(tempBtn.mas_right);
