@@ -51,14 +51,14 @@
     layout.minimumLineSpacing = 0;
     layout.minimumInteritemSpacing = 0;
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-//    layout.sectionInset = UIEdgeInsetsMake(0, kMargen, kMargen, kMargen);
 
     self.layout = layout;
     
-    UICollectionView *collectionNode = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, KScreenWidth, 150) collectionViewLayout:layout];
+    UICollectionView *collectionNode = [[UICollectionView alloc] initWithFrame:CGRectMake(kMargen, 0, KScreenWidth - kMargen - kMargen, 150) collectionViewLayout:layout];
     collectionNode.delegate = self;
     collectionNode.dataSource = self;
     collectionNode.pagingEnabled = YES;
+    collectionNode.clipsToBounds = NO;
     collectionNode.showsHorizontalScrollIndicator = NO;
     collectionNode.showsVerticalScrollIndicator = NO;
     collectionNode.backgroundColor = [UIColor clearColor];
@@ -158,7 +158,7 @@
             
         }else {
             [cell.imageView mas_updateConstraints:^(MASConstraintMaker *make) {
-                make.width.height.mas_equalTo((KScreenWidth) / 4 - 40);
+                make.width.height.mas_equalTo(((KScreenWidth - kMargen - kMargen)) / 4 - 40);
                 make.centerX.equalTo(cell.contentView.mas_centerX);
                 make.centerY.equalTo(cell.contentView.mas_centerY).offset(-10);
             }];
@@ -217,7 +217,7 @@
     NSInteger maxRow = [self maxRowWithSection:indexPath.section];
     NSInteger maxCountPerRow = [self maxCountPerRowWithSection:indexPath.section];
     
-    return CGSizeMake((KScreenWidth)/maxCountPerRow, 150/maxRow);
+    return CGSizeMake(((KScreenWidth - kMargen - kMargen))/maxCountPerRow, 150/maxRow);
 }
 
 - (void)scrollToSection:(NSInteger)section {
@@ -235,7 +235,7 @@
         
         pageCount = itemCount/(maxRow*maxCountPerRow);
         
-        offset += pageCount * (KScreenWidth);
+        offset += pageCount * ((KScreenWidth - kMargen - kMargen));
     }
     [self.collectionView setContentOffset:CGPointMake(offset, 0)];
     
@@ -255,7 +255,7 @@
 
 - (void)scrollToItem:(NSInteger)item {
     
-    NSInteger kwidth = KScreenWidth;
+    NSInteger kwidth = (KScreenWidth - kMargen - kMargen);
 
     NSInteger offPage = item - self.currentIndexOfPage;
     [self.collectionView setContentOffset:CGPointMake(self.collectionView.contentOffset.x + offPage*kwidth, 0)];
@@ -273,7 +273,7 @@
     NSInteger maxRow = 0;
     NSInteger maxCountPerRow = 0;
     
-    NSInteger kwidth = KScreenWidth;
+    NSInteger kwidth = (KScreenWidth - kMargen - kMargen);
     
     for (int i = 0; i < self.sectionCount; i++) {
         
