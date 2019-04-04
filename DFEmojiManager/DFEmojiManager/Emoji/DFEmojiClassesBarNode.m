@@ -135,9 +135,11 @@
         UIButton *node = [self.scrollSubNode objectAtIndex:selectIndex];
         [self scrollSubNodeClick:node :YES];
         //scrollview 选中的在可见frame内
+        //往右滑
         if ((CGRectGetMaxX(node.frame) + CGRectGetWidth(node.frame) - self.scrollNode.contentOffset.x) > CGRectGetMaxX(self.scrollNode.frame)) {
             [self.scrollNode setContentOffset:CGPointMake(node.frame.origin.x - (KScreenWidth - 92) + node.frame.size.width, 0) animated:YES];
         }
+        //往左滑
         if (CGRectGetMaxX(node.frame) - CGRectGetWidth(node.frame) < self.scrollNode.contentOffset.x) {
             [self.scrollNode setContentOffset:CGPointMake(node.frame.origin.x, 0) animated:YES];
         }
